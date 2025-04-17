@@ -9,6 +9,8 @@ import { SampleTextInput } from "./_components/sample-text-input"
 import { SampleTextSelector } from "./_components/sample-text-selector"
 import { getGoogleFonts } from "./actions"
 
+export const runtime = "edge"
+
 function PreviewFallback() {
   return (
     <Card>

@@ -107,7 +107,7 @@ export function Preview({ defaultFonts }: PreviewProps) {
       })
     }
     loadGoogleFonts()
-  }, [query])
+  }, [query, fonts])
 
   return (
     <>
